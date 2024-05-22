@@ -35,7 +35,7 @@ This repository contains step-by-step instructions on how to create an Ubuntu pa
 # General Downloads & Settings
 
 # Installation ROS
-s
+
 # Workspaces & ROS environment
 
 # Used libraries
