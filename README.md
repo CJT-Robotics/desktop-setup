@@ -18,10 +18,10 @@ This repository contains step-by-step instructions on how to create an Ubuntu pa
 
 ## Setting up the Ubuntu partition
 
-**Dieser Schritt ist nur notwendig, wenn die Partition noch nicht erstellt worden ist. Das heißt, falls diese schon besteht, oder die Fesplatte noch leer ist, kann zum [nächsten Schritt](#creating-the-ubuntu-bootstick "nächsten Schritt") gesprungen werden.**
+**This step is only necessary if the partition has not yet been created. This means that if it already exists or the hard drive is still empty, you can skip to the [next step](#creating-the-ubuntu-bootstick "next step").**
 
 1. Open the "Disk Management"-tool ![Image of "Disk Management"-tool in the searchbar](imgs/screenshot-1-diskManagementTool.png)
-
+2. Select the disk on which you want to create the partition with Ubuntu and right-click the name of it. Select "Volumen verkleiner" ![Image of "Disk Management"-tool at disk selection]()
 
 
 ## Creating the Ubuntu BootStick
