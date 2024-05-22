@@ -20,9 +20,12 @@ This repository contains step-by-step instructions on how to create an Ubuntu pa
 
 **This step is only necessary if the partition has not yet been created. This means that if it already exists or the hard drive is still empty, you can skip to the [next step](#creating-the-ubuntu-bootstick "next step").**
 
-1. Open the "Disk Management"-tool ![Image of "Disk Management"-tool in the searchbar](imgs/screenshot-1-diskManagementTool.png)
-2. Select the disk on which you want to create the partition with Ubuntu and right-click the name of it. Select "Volumen verkleiner" ![Image of "Disk Management"-tool at disk selection](imgs/screenshot-2-diskManagementTool.png)
-3. Now decide how much space you want to use for your Ubuntu partition. ( We recommend between 50GB-100GB) ![Image of "Disk Management"-tool at space decrease](imgs/screenshot-3-diskManagementTool.png)
+1. Open the "Disk Management"-tool
+   ![Image of "Disk Management"-tool in the searchbar](imgs/screenshot-1-diskManagementTool.png)
+2. Select the disk on which you want to create the partition with Ubuntu and right-click the name of it. Select "Volumen verkleiner"
+   ![Image of "Disk Management"-tool at disk selection](imgs/screenshot-2-diskManagementTool.png)
+3. Now decide how much space you want to use for your Ubuntu partition. ( We recommend between 50GB-100GB)
+   ![Image of "Disk Management"-tool at space decrease](imgs/screenshot-3-diskManagementTool.png)
 4. We leave the space free without any partition system or name because for the installation of Ubuntu we need to declare the space on our own. 
 
 ## Creating the Ubuntu BootStick
