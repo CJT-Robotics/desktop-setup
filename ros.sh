@@ -34,6 +34,16 @@ function install_ros {
     rosdep update
 }
 
+function initialize_workspace {
+    source /opt/ros/noetic/setup.bash
+    cd ~
+    mkdir -p ~/catkin_ws/src
+    cd ~/catkin_ws/
+    catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+    source devel/setup.bash
+    echo $ROS_PACKAGE_PATH
+}
+
 echo -e "${YELLOW}This program installs ROS1 (noetic) and all associated dependencies.${NC}"
 continue_wizard
 
@@ -43,5 +53,7 @@ echo -e "${GREEN}ROS is completly installed!${NC}"
 
 echo -e "${YELLOW}Do you want to setup catkin_ws & sandbox_ws, the missing libraries & dependencies and all other used ROS tools?${NC}"
 continue_wizard
+
+initialize_workspace
 
 echo -e "${RED}Missing skript${NC}
