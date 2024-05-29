@@ -10,7 +10,7 @@ This repository contains step-by-step instructions on how to create an Ubuntu pa
 * [Installation of Ubuntu](#installation-ubuntu "Installation of Ubuntu")
 * [Setting up generals](#general-downloads--settings "Setting up generals")
 * [Installation ROS](#installation-ros "Installation ROS")
-* [Workspaces & ROS environment](#workspaces--ros-environment "Workspaces & ROS environment")
+* [Workspaces & ROS environment](#ros-workspaces--environment "Workspaces & ROS environment")
 * [Installation libraries](#used-libraries (Installation libraries))
 * [Tips & Information](#tips--information "Tips & Information")
 
@@ -104,7 +104,7 @@ rosdep update
 
 Now ROS is perfectly installed and you can add the workspaces and other libraries we need.
 
-# Workspaces & ROS environment
+# ROS Workspaces & Environment
 
 Now we are ready to set-up and install our ROS workspace & environment. So below you find a step-by-step description to do so. 
 
