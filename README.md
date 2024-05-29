@@ -105,6 +105,38 @@ rosdep update
 Now ROS is perfectly installed and you can add the workspaces and other libraries we need.
 
 # Workspaces & ROS environment
+
+Now we are ready to set-up and install our ROS workspace & environment. So below you find a step-by-step description to do so. 
+
+Source the setup-Script 
+```bash
+source /opt/ros/noetic/setup.bash
+```
+Move to your home directory.
+```bash
+cd ~
+```
+Create the workspace folder.
+```bash
+mkdir -p ~/catkin_ws/src
+```
+Switch to your catkin_ws folder.
+```bash
+cd ~/catkin_ws/
+```
+Make your workspace with the possibility of using Python3.
+```bash
+catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+```
+Source your new setup.bash file.
+```bash
+source devel/setup.bash
+```
+To ensure, everything went fine run
+```bash
+echo $ROS_PACKAGE_PATH
+```
+
 **TODO for Markus**
 
 # Used libraries
