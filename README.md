@@ -24,7 +24,7 @@ This repository contains step-by-step instructions on how to create an Ubuntu pa
    ![Image of "Disk Management"-tool in the searchbar](imgs/screenshot-1-diskManagementTool.png)
 2. Select the disk on which you want to create the partition with Ubuntu and right-click the name of it. Select "Shrink Volume"
    ![Image of "Disk Management"-tool at disk selection](imgs/screenshot-2-diskManagementTool.png)
-3. Now decide how much space you want to use for your Ubuntu partition. ( We recommend between 50GB-100GB)
+3. Now decide how much space you want to use for your Ubuntu partition. (We recommend between 50GB-100GB)
    ![Image of "Disk Management"-tool at space decrease](imgs/screenshot-3-diskManagementTool.png)
 4. We leave the space free without any partition system or name because for the installation of Ubuntu we need to declare the space on our own. 
 
@@ -38,7 +38,16 @@ This repository contains step-by-step instructions on how to create an Ubuntu pa
 
 # Installation Ubuntu
 
-**TODO for Markus**
+The installation wizard opens automaticly, there you select "Install Ubuntu". Follow the instructions till the installation page.
+
+Select "Normal installation" and add the option "Install third-party software for graphics and Wi-Fi hardware and additional media formats. Tick off the "Turn off Secure Boot" option. 
+
+1. Select "Something else" and press "Continue".
+2. There is a 'partion' called "free space", click it and press on the "+"-button. Enter 512 MB into the size-box. Select at the "Use as"-selection "swap area" and hit "OK".
+3. Select the free space 'partition' and hit the "+"-button. Enter the rest of the free space into the size-box. The "Use" is "Ext4 journaling file system" and the "Mount point" is "/". To acknowledge the partion, hit "OK".
+4. Hit "Install now" to install Ubuntu on your disk.
+
+**TODO paste in the Images**
 
 # General Downloads & Settings
 
@@ -80,13 +89,9 @@ Apply the configuration
 ```bash
 source ~/.bashrc
 ```
-Install dependencies
-```bash
-sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-```
 Install python3-ros dependencies
 ```bash
-sudo apt install python3-rosdep
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 ```
 Initialize the dependencies
 ```bash
